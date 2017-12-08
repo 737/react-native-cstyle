@@ -1,7 +1,4 @@
 import { PixelRatio } from 'react-native';
-import Dimensions from 'Dimensions';
-
-const viewPort = Dimensions.get('window');
 
 const borderWidth = 1;
 

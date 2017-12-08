@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/737/react-native-cstyle/issues"
   },
-  "homepage": "https://github.com/737/react-native-cstyle#readme"
+  "homepage": "https://github.com/737/react-native-cstyle#readme",
+  "dependencies": {
+    "react-native": "^0.51.0"
+  }
 }
