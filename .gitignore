@@ -2,3 +2,5 @@
 *.log*
 doc/*.html
 node_modules
+
+package-lock.json

@@ -20,7 +20,7 @@
     "url": "https://github.com/737/react-native-cstyle/issues"
   },
   "homepage": "https://github.com/737/react-native-cstyle#readme",
-  "dependencies": {
+  "devDependencies": {
     "react-native": "^0.51.0"
   }
 }
