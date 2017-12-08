@@ -1,71 +1,47 @@
 
 export default {
-    fz10: {
-        fontSize: 10,
-    },
-    fz11: {
-        fontSize: 11,
-    },
-    fz12: {
-        fontSize: 12,
-    },
-    fz13: {
-        fontSize: 13,
-    },
-    fz14: {
-        fontSize: 14,
-    },
-    fz15: {
-        fontSize: 15,
-    },
-    fz16: {
-        fontSize: 16,
-    },
-    fz17: {
-        fontSize: 17,
-    },
-    fz18: {
-        fontSize: 18,
-    },
-    fz19: {
-        fontSize: 19,
-    },
-    fz20: {
-        fontSize: 20,
-    },
-    fz21: {
-        fontSize: 21,
-    },
-    fz22: {
-        fontSize: 22,
-    },
-    fz23: {
-        fontSize: 23,
-    },
-    fz24: {
-        fontSize: 24,
-    },
-    fz25: {
-        fontSize: 25,
-    },
-    fz26: {
-        fontSize: 26,
-    },
-    fz27: {
-        fontSize: 27,
-    },
-    fz28: {
-        fontSize: 28,
-    },
-    fz29: {
-        fontSize: 29,
-    },
-    lh10: {
-        lineHeight: 10,
-    },
-    lh20: {
-        lineHeight: 20,
-    },
+    fz10: { fontSize: 10 },
+    fz11: { fontSize: 11 },
+    fz12: { fontSize: 12 },
+    fz13: { fontSize: 13 },
+    fz14: { fontSize: 14 },
+    fz15: { fontSize: 15 },
+    fz16: { fontSize: 16 },
+    fz17: { fontSize: 17 },
+    fz18: { fontSize: 18 },
+    fz19: { fontSize: 19 },
+    fz20: { fontSize: 20 },
+    fz21: { fontSize: 21 },
+    fz22: { fontSize: 22 },
+    fz23: { fontSize: 23 },
+    fz24: { fontSize: 24 },
+    fz25: { fontSize: 25 },
+    fz26: { fontSize: 26 },
+    fz27: { fontSize: 27 },
+    fz28: { fontSize: 28 },
+    fz29: { fontSize: 29 },
+    fz30: { fontSize: 30 },
+
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh10: { lineHeight: 10 },
+    lh20: { lineHeight: 20 },
+
     m0: {
         marginHorizontal: 0,
         marginVertical: 0,
