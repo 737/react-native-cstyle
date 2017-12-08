@@ -523,8 +523,39 @@ export default {
     bgc_red: { backgroundColor: 'red' },
     bgc_blue: { backgroundColor: 'blue' },
 
-    flexRow: { flexDirection: 'row' },
-    flexAuto: { flex: 1 },
-    flexColumn: { flexDirection: 'column' },
-    flexCenter: { justifyContent: 'center', alignItems: 'center' }
+    flx_auto: { flex: 1 },
+    flx_row: { flexDirection: 'row' },
+    flx_column: { flexDirection: 'column' },
+    flx_center: { justifyContent: 'center', alignItems: 'center' },
+
+    // justify-content
+    jc_start: { justifyContent: 'flex-start' },
+    jc_end: { justifyContent: 'flex-end' },
+    jc_center: { justifyContent: 'center' },
+    jc_between: { justifyContent: 'space-between' },
+    jc_around: { justifyContent: 'space-around' },
+
+    // align-content
+    ac_start: { alignContent: 'flex-start' },
+    ac_end: { alignContent: 'flex-end' },
+    ac_center: { alignContent: 'center' },
+    ac_between: { alignContent: 'space-between' },
+    ac_around: { alignContent: 'space-around' },
+    ac_around: { alignContent: 'stretch' },
+
+    // align-items
+    ai_start: { alignItems: 'flex-start' },
+    ai_end: { alignItems: 'flex-end' },
+    ai_center: { alignItems: 'center' },
+    ai_baseline : { alignItems: 'baseline' },
+    ai_stretch: { alignItems: 'stretch' },
+
+    // align-self
+    as_auto: { alignSelf: 'auto' },
+    as_start: { alignSelf: 'flex-start' },
+    as_end: { alignSelf: 'flex-end' },
+    as_center: { alignSelf: 'center' },
+    as_baseline : { alignSelf: 'baseline' },
+    as_stretch: { alignSelf: 'stretch' },
+    
 };
