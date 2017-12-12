@@ -3,6 +3,7 @@
 import { StyleSheet, Dimensions, Platform } from 'react-native';
 import cstyle from './src/cstyle';
 import border from './src/border';
+import util from './src/util';
 
 const viewPort = Dimensions.get('window');
 const toString = Object.prototype.toString;
@@ -53,7 +54,8 @@ export default function (style, parsePrecent, onExtend) {
 
 export {
     cstyle,
-    border
+    border,
+    util
 }
 
 
