@@ -10,10 +10,23 @@ export default {
     clr999: { color: '#999' },
     clrB2: { color: '#b2b2b2' },
 
+    bg: function (str) {
+        return { backgroundColor: str }
+    },
+    bgRgba: function (r = 0, g = 0, b = 0, a = 1) {
+        let rgba = 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+
+        return {
+            backgroundColor: rgba
+        }
+    },
     bgBlack: { backgroundColor: '#000' },
-    bgWhite: { backgroundColor: '#fff' },
-    bgRed: { backgroundColor: 'red' },
     bgBlue: { backgroundColor: 'blue' },
+    bgRed: { backgroundColor: 'red' },
+    bgTrans: { backgroundColor: 'transparent' },
+    bgGreen: { backgroundColor: '#008000' },
+    bgWhite: { backgroundColor: '#fff' },
+    bgYellow: { backgroundColor: '#FFFF00' },
 
     flexAuto: { flex: 1 },
     flexRow: { flexDirection: 'row' },
@@ -39,7 +52,7 @@ export default {
     algnStart: { alignItems: 'flex-start' },
     algnEnd: { alignItems: 'flex-end' },
     algnCenter: { alignItems: 'center' },
-    algnBaseline : { alignItems: 'baseline' },
+    algnBaseline: { alignItems: 'baseline' },
     algnStretch: { alignItems: 'stretch' },
 
     // align-self
@@ -47,10 +60,10 @@ export default {
     selfStart: { alignSelf: 'flex-start' },
     selfEnd: { alignSelf: 'flex-end' },
     selfCenter: { alignSelf: 'center' },
-    selfBaseline : { alignSelf: 'baseline' },
+    selfBaseline: { alignSelf: 'baseline' },
     selfStretch: { alignSelf: 'stretch' },
 
-    fz: function(number) {
+    fz: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -123,7 +136,7 @@ export default {
     fz_29: { fontSize: fitPX(-29) },
     fz_30: { fontSize: fitPX(-30) },
 
-    lh: function(number) {
+    lh: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -196,7 +209,7 @@ export default {
     lh_29: { lineHeight: fitPX(-29) },
     lh_30: { lineHeight: fitPX(-30) },
 
-    m: function(number) {
+    m: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -270,7 +283,7 @@ export default {
     m_30: { marginHorizontal: fitPX(-30), marginVertical: fitPX(-30) },
 
 
-    mh: function(number) {
+    mh: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -343,7 +356,7 @@ export default {
     mh_29: { marginHorizontal: fitPX(-29) },
     mh_30: { marginHorizontal: fitPX(-30) },
 
-    mv: function(number) {
+    mv: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -416,7 +429,7 @@ export default {
     mv_29: { marginVertical: fitPX(-29) },
     mv_30: { marginVertical: fitPX(-30) },
 
-    mt: function(number) {
+    mt: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -489,7 +502,7 @@ export default {
     mt_29: { marginTop: fitPX(-29) },
     mt_30: { marginTop: fitPX(-30) },
 
-    mr: function(number) {
+    mr: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -562,7 +575,7 @@ export default {
     mr_29: { marginRight: fitPX(-29) },
     mr_30: { marginRight: fitPX(-30) },
 
-    mb: function(number) {
+    mb: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -635,7 +648,7 @@ export default {
     mb_29: { marginBottom: fitPX(-29) },
     mb_30: { marginBottom: fitPX(-30) },
 
-    ml: function(number) {
+    ml: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -708,7 +721,7 @@ export default {
     ml_29: { marginLeft: fitPX(-29) },
     ml_30: { marginLeft: fitPX(-30) },
 
-    p: function(number) {
+    p: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -781,7 +794,7 @@ export default {
     p_29: { paddingHorizontal: fitPX(-29), paddingVertical: fitPX(-29) },
     p_30: { paddingHorizontal: fitPX(-30), paddingVertical: fitPX(-30) },
 
-    ph: function(number) {
+    ph: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -854,7 +867,7 @@ export default {
     ph_29: { paddingHorizontal: fitPX(-29) },
     ph_30: { paddingHorizontal: fitPX(-30) },
 
-    pv: function(number) {
+    pv: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -927,7 +940,7 @@ export default {
     pv_29: { paddingVertical: fitPX(-29) },
     pv_30: { paddingVertical: fitPX(-30) },
 
-    pt: function(number) {
+    pt: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -1000,7 +1013,7 @@ export default {
     pt_29: { paddingTop: fitPX(-29) },
     pt_30: { paddingTop: fitPX(-30) },
 
-    pr: function(number) {
+    pr: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -1073,7 +1086,7 @@ export default {
     pr_29: { paddingRight: fitPX(-29) },
     pr_30: { paddingRight: fitPX(-30) },
 
-    pb: function(number) {
+    pb: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
@@ -1146,7 +1159,7 @@ export default {
     pb_29: { paddingBottom: fitPX(-29) },
     pb_30: { paddingBottom: fitPX(-30) },
 
-    pl: function(number) {
+    pl: function (number) {
         if (!isNumber(number)) {
             number = 0;
         }
