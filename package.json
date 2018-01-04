@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/737/react-native-cstyle#readme",
   "devDependencies": {
+    "react": "16.0.0",
     "react-native": "^0.51.0"
   }
 }

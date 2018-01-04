@@ -1,8 +1,8 @@
-
+import React from 'react';
 import { fitPX } from './util';
 import { isNumber } from 'lodash';
 
-export default {
+let css = {
 
     clrBlack: { color: '#000' },
     clrWhite: { color: '#fff' },
@@ -1232,3 +1232,18 @@ export default {
     pl_29: { paddingLeft: fitPX(-29) },
     pl_30: { paddingLeft: fitPX(-30) },
 };
+
+// 如果react native 小于0.51版本, 则以下属性是不支持的
+if (React.PropTypes) {
+    delete css.alonStart;
+    delete css.alonEnd;
+    delete css.alonCenter;
+    delete css.alonBetween;
+    delete css.alonAround;
+    delete css.alonStretch;
+    
+    delete css.algnBaseline;
+    delete css.selfBaseline;
+}
+
+export default css;
