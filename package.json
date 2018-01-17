@@ -20,8 +20,10 @@
     "url": "https://github.com/737/react-native-cstyle/issues"
   },
   "homepage": "https://github.com/737/react-native-cstyle#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
   "devDependencies": {
-    "react": "16.0.0",
-    "react-native": "^0.51.0"
+    "react": "16.0.0"
   }
 }
