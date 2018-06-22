@@ -3,6 +3,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 
 const px1 = StyleSheet.hairlineWidth;
+const { width, height } = Dimensions.get('window');
 
 export function fitPX(value) {
     const screenWidth = Dimensions.get('window').width;
@@ -10,3 +11,6 @@ export function fitPX(value) {
 
     return  (value > 0 && scaleValue === 0)  ? px1 : scaleValue;
 }
+
+export const screenWidth = width;
+export const screenHeight = height;

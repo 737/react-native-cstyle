@@ -5,6 +5,7 @@ import cstyle from './src/cstyle';
 import border from './src/border';
 import * as cutil from './src/util';
 
+const cs = cstyle;
 const viewPort = Dimensions.get('window');
 const toString = Object.prototype.toString;
 
@@ -54,6 +55,7 @@ export default function (style, parsePrecent, onExtend) {
 
 export {
     cstyle,
+    cs, // shortcut: cs = cstyle
     border,
     cutil
 }
